@@ -1,0 +1,67 @@
+* {
+   margin: 0;
+}
+
+@font-face {
+   font-family: Roboto-Black;
+   src: url(Phons/Roboto/Roboto-Black.ttf);
+}
+body{
+   font-family: Roboto-Black;
+
+}
+nav{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ a{
+    margin: 30px;
+    color: #399c83;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 700;
+ }
+}
+section{
+    text-align: center;
+    font-weight: 600;
+
+ img{
+    width: 1380px;
+ }
+ h3{
+    padding-top: 30px;
+    margin-top: 0;
+ }
+ p{
+    padding-right: 90px;
+    padding-left: 90px;
+    line-height: 25px;
+    font-size: 15px;
+ }
+}
+button{
+    margin-top: 25px;
+    margin-bottom: 100px;
+    width: 180px;
+    height: 50px;
+    background: #399c83;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+footer{
+    text-align: right;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 1380px;
+    margin-left: auto;
+    margin-right: auto;
+}
+div{
+    background-color: gainsboro;
+    width: 1380px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
